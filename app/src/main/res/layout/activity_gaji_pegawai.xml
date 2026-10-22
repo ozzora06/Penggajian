@@ -39,7 +39,7 @@
         tools:layout_editor_absoluteY="79dp" />
 
     <EditText
-        android:id="@+id/namak"
+        android:id="@+id/nama"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -55,7 +55,7 @@
         tools:layout_editor_absoluteY="26dp" />
 
     <EditText
-        android:id="@+id/gajip"
+        android:id="@+id/gapok"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -71,7 +71,7 @@
         tools:layout_editor_absoluteY="26dp" />
 
     <EditText
-        android:id="@+id/tunjanganj"
+        android:id="@+id/tunjab"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -87,7 +87,7 @@
         tools:layout_editor_absoluteY="26dp" />
 
     <EditText
-        android:id="@+id/jumlahhk"
+        android:id="@+id/jumhk"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -105,6 +105,7 @@
     <Button
         android:id="@+id/btnhitung"
         android:text="Hitung"
+        android:onClick="Hitung"
         app:backgroundTint="#2A7C13"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
@@ -114,10 +115,10 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:layout_marginBottom="355dp"
-        />
+        tools:ignore="OnClick" />
 
     <EditText
-        android:id="@+id/tunjanganm"
+        android:id="@+id/tunmak"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -133,7 +134,7 @@
         tools:layout_editor_absoluteY="26dp" />
 
     <EditText
-        android:id="@+id/tunjangant"
+        android:id="@+id/tuntra"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -149,7 +150,7 @@
         tools:layout_editor_absoluteY="26dp" />
 
     <EditText
-        android:id="@+id/gajik"
+        android:id="@+id/gakot"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -165,7 +166,7 @@
         tools:layout_editor_absoluteY="26dp" />
 
     <EditText
-        android:id="@+id/gajib"
+        android:id="@+id/gaber"
         android:layout_width="356dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
