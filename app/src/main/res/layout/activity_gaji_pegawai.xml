@@ -36,7 +36,7 @@
         android:inputType="textPersonName"
         android:hint="Nomor Induk Karyawan"
         tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="79dp" />
+        tools:layout_editor_absoluteY="26dp" />
 
     <EditText
         android:id="@+id/nama"

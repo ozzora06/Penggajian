@@ -33,20 +33,17 @@ public class MainActivity extends AppCompatActivity {
             Intent intent1 = new Intent(getApplicationContext(), GajiPegawai.class);
             startActivity(intent1);
         });
-
         button2.setOnClickListener(v -> {
-//            Intent intent2 = new Intent(getApplicationContext(), Panduan.class);
-//            startActivity(intent2);
+            Intent intent2 = new Intent(getApplicationContext(), Panduan.class);
+            startActivity(intent2);
         });
-
-        button2.setOnClickListener(v -> {
-//            Intent intent2 = new Intent(getApplicationContext(), Tentang.class);
-//            startActivity(intent2);
+        button3.setOnClickListener(v -> {
+//            Intent intent3 = new Intent(getApplicationContext(), Tentang.class);
+//            startActivity(intent3);
         });
-
-        button2.setOnClickListener(v -> {
-//            Intent intent2 = new Intent(getApplicationContext(), Keluar.class);
-//            startActivity(intent2);
+        button4.setOnClickListener(v -> {
+//            Intent intent4 = new Intent(getApplicationContext(), Keluar.class);
+//            startActivity(intent4);
         });
     }
 }

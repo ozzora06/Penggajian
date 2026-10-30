@@ -36,12 +36,6 @@ public class GajiPegawai extends AppCompatActivity {
         btnhitung = (Button) findViewById(R.id.btnhitung);
         btnkembali = (Button) findViewById(R.id.btnkembali);
 
-//        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-//            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-//            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-//            return insets;
-//        });
-
         //OnClick Button
         btnkembali = findViewById(R.id.btnkembali);
         btnkembali.setOnClickListener(v -> finish());
