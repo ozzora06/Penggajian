@@ -2,6 +2,7 @@ package com.example.penggajian;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,12 +39,16 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent2);
         });
         button3.setOnClickListener(v -> {
-//            Intent intent3 = new Intent(getApplicationContext(), Tentang.class);
-//            startActivity(intent3);
+            Intent intent3 = new Intent(getApplicationContext(), Tentang.class);
+            startActivity(intent3);
         });
-        button4.setOnClickListener(v -> {
-//            Intent intent4 = new Intent(getApplicationContext(), Keluar.class);
-//            startActivity(intent4);
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                moveTaskToBack(true);
+                finish();
+                System.exit(0);
+            }
         });
     }
 }
